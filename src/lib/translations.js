@@ -62,9 +62,9 @@ export const translations = {
       title: "Selected work",
       viewSuite: "View suite",
       items: [
-        { title: "Inside Ideation Loop — Showcase Edition", description: "A reasoning parser for messy long-form human thinking. It turns raw spoken ideation into semantic segments, ambiguity checks, reasoning structures, decision paths, portfolio cases, and export-ready briefs.", tags: ["AI Workflow", "Prompt System", "Long-form Structuring", "Human-in-the-loop", "Portfolio Tool", "UX Writing"] },
-        { title: "Card Game Reasoning Suite", description: "A family of competitive card game decision-support prototypes. It explores how players can turn match history, matchup patterns, ladder pressure, sideboard plans, lineup logic, and messy notes into reviewable decisions.", tags: ["Game Analytics", "Decision Support", "MTG", "Hearthstone", "Player Tools", "Product Thinking"], link: "#card-game-suite" },
-        { title: "Research-to-Product Workflow", description: "A broader workflow approach for transforming research background, fragmented ideas, and project experience into structured product cases, content systems, and application materials.", tags: ["Research Synthesis", "Knowledge Management", "UX Writing", "Product Strategy", "AI-assisted Workflow"] },
+        { title: "Inside Ideation Loop — Showcase Edition", description: "A reasoning parser for messy long-form human thinking. It turns raw spoken ideation into semantic segments, ambiguity checks, reasoning structures, decision paths, portfolio cases, and export-ready briefs.", image: "/images/inside-ideation-loop.png", tags: ["AI Workflow", "Prompt System", "Long-form Structuring", "Human-in-the-loop", "Portfolio Tool", "UX Writing"] },
+        { title: "Card Game Reasoning Suite", description: "A family of competitive card game decision-support prototypes. It explores how players can turn match history, matchup patterns, ladder pressure, sideboard plans, lineup logic, and messy notes into reviewable decisions.", image: "/images/card-game-suite.png", tags: ["Game Analytics", "Decision Support", "MTG", "Hearthstone", "Player Tools", "Product Thinking"], link: "#card-game-suite" },
+        { title: "Research-to-Product Workflow", description: "A broader workflow approach for transforming research background, fragmented ideas, and project experience into structured product cases, content systems, and application materials.", image: "/images/research-workflow.png", tags: ["Research Synthesis", "Knowledge Management", "UX Writing", "Product Strategy", "AI-assisted Workflow"] },
       ],
     },
     skills: {
@@ -239,9 +239,9 @@ export const translations = {
       title: "精選作品",
       viewSuite: "查看套件",
       items: [
-        { title: "Inside Ideation Loop — 展示版", description: "一個處理混亂長篇人類思維的推理解析器。將原始口語構想轉化為語意片段、歧義檢查、推理結構、決策路徑、作品集案例與可匯出的簡報。", tags: ["AI 工作流", "提示系統", "長篇結構化", "人機協作", "作品集工具", "UX 寫作"] },
-        { title: "卡牌遊戲推理套件", description: "一系列競技卡牌遊戲決策支援原型。探索玩家如何將對戰紀錄、對局模式、天梯壓力、備牌計畫、陣容邏輯與零散筆記轉化為可審查的決策。", tags: ["遊戲分析", "決策支援", "MTG", "Hearthstone", "玩家工具", "產品思考"], link: "#card-game-suite" },
-        { title: "研究到產品工作流", description: "一個更廣泛的工作流方法，將研究背景、碎片化想法與專案經驗轉化為結構化的產品案例、內容系統與申請素材。", tags: ["研究綜合", "知識管理", "UX 寫作", "產品策略", "AI 輔助工作流"] },
+        { title: "Inside Ideation Loop — 展示版", description: "一個處理混亂長篇人類思維的推理解析器。將原始口語構想轉化為語意片段、歧義檢查、推理結構、決策路徑、作品集案例與可匯出的簡報。", image: "/images/inside-ideation-loop.png", tags: ["AI 工作流", "提示系統", "長篇結構化", "人機協作", "作品集工具", "UX 寫作"] },
+        { title: "卡牌遊戲推理套件", description: "一系列競技卡牌遊戲決策支援原型。探索玩家如何將對戰紀錄、對局模式、天梯壓力、備牌計畫、陣容邏輯與零散筆記轉化為可審查的決策。", image: "/images/card-game-suite.png", tags: ["遊戲分析", "決策支援", "MTG", "Hearthstone", "玩家工具", "產品思考"], link: "#card-game-suite" },
+        { title: "研究到產品工作流", description: "一個更廣泛的工作流方法，將研究背景、碎片化想法與專案經驗轉化為結構化的產品案例、內容系統與申請素材。", image: "/images/research-workflow.png", tags: ["研究綜合", "知識管理", "UX 寫作", "產品策略", "AI 輔助工作流"] },
       ],
     },
     skills: {
