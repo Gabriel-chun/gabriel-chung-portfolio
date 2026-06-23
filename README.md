@@ -1,4 +1,4 @@
-# Base44 Project
+# 個人作品集 Project
 
 Use this repository to run and edit the app locally, then publish changes back through Base44.
 
