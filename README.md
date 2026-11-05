@@ -65,6 +65,21 @@ This archive documents a period of GPT-assisted product prototyping and research
 這個 archive **不是要宣稱每一個歷史原型現在仍是獨立產品**。它的用途是保存設計問題如何演化，並作為重建 Portfolio 時的研究材料。  
 This archive **does not claim that every historical prototype remains an active standalone product**. Its purpose is to preserve the evolution of the design questions and provide source material for rebuilding the portfolio.
 
+## 工作追蹤（2026）  
+## Activity Tracking (2026)
+
+```text
+tracking/
+├── README.md          做法、分工與資料格式 / method, division of labor, format
+└── 2026-activity.md   各平台的期間、天數與迭代次數 / periods, active days, iteration counts
+```
+
+`archive/` 記錄「為什麼做、學到什麼」；`tracking/` 只記錄 **時間、次數、版本與網址**。  
+`archive/` records why things were built and what was learned; `tracking/` records only **dates, counts, versions and URLs**.
+
+依「誰讀得到」分工：**GPT** 負責 GPT Sites 與 GPT 專案紀錄；**Claude** 負責 GitHub、Cloudflare／Vercel 部署與 Base44。  
+Split by access: **GPT** covers GPT Sites and GPT project history; **Claude** covers GitHub, Cloudflare / Vercel deployments and Base44.
+
 ## 重構原則  
 ## Rebuild Principles
 
