@@ -63,19 +63,32 @@
 
 ---
 
-## C. GPT Sites（GPT 負責，待補）
+## C. GPT Sites（GPT 負責）
 
-讀法：由 GPT 依自己的 Sites 與專案紀錄填寫。請沿用同樣的欄位；不知道的留空或寫「推估」。
+查核日：2026-11-05（Asia/Taipei）。依 Sites `list_sites` 的 `created_at`、`updated_at`、`status`、存取設定，以及逐站完整分頁的 `list_site_versions` 填寫，共 14 個 Site。私人站點依 tracking README 的公開範圍不列網址。
+
+**期間欄是「專案建立 → 最近專案 metadata 更新」的觀測區間，不是已確認的開發起訖或停止日。** `updated_at` 不一定代表內容修改或部署。日期均轉為臺北日期。版本數已逐筆列舉核對，與最新序號一致；儲存版本不一定部署，也不等於重大改版次數。產品的 V2／V5.2 等語意版本不能直接等同 Site v2／v148。
+
+版本清單未提供逐版建立時間戳，因此無法計算活躍天數，留空（轉成 JSON 時用 `null`）。`active` 是平台專案狀態，不能解讀為仍持續開發。未讀取完整歷史對話，不據此補寫修改內容。
 
 | 產品 | 網址 | 期間 | 活躍天數 | 版本數／版本號 | 目前狀態 | 確定／推估 |
 |---|---|---|---|---|---|---|
-| Ideation Landing Room | ideation-landing-room.chungkang.chatgpt.site | | | | | |
-| Thought Flow Lab（Profile 07） | thought-flow-lab.chungkang.chatgpt.site | | | | | |
-| Inside Decision OS（GPT Site 版） | inside-decision-os.chungkang.chatgpt.site | | | source v147？ | | |
-| Competitive Decision Lab | competitive-decision-lab.chungkang.chatgpt.site | | | | | |
-| Shadowverse Prep Lab | shadowverse-prep-lab.chungkang.chatgpt.site | | | source v83？ | | |
-| Next Stop Live 品牌頁 | next-stop-live.chungkang.chatgpt.site | | | | | |
-| （其他 GPT Sites） | | | | | | |
+| Inside Decision OS | 私人（不列網址） | 2026-07-15–2026-10-14 | | 148 個儲存版本；v1–v148 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Competitive Decision Lab | [competitive-decision-lab.chungkang.chatgpt.site](https://competitive-decision-lab.chungkang.chatgpt.site) | 2026-07-16–2026-10-20 | | 7 個儲存版本；v1–v7 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Thought Flow / Transcript Lab | 私人（不列網址） | 2026-07-16–2026-07-17 | | 9 個儲存版本；v1–v9 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Shadowverse Prep Lab | 私人（不列網址） | 2026-07-19–2026-10-12 | | 83 個儲存版本；v1–v83 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Ideation Landing Room | 私人（不列網址） | 2026-07-22–2026-07-24 | | 11 個儲存版本；v1–v11 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Inside Workspace | 私人（不列網址） | 2026-07-24–2026-08-12 | | 7 個儲存版本；v1–v7 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Thought Flow Profile 07 | [thought-flow-profile-07.chungkang.chatgpt.site](https://thought-flow-profile-07.chungkang.chatgpt.site) | 2026-07-30–2026-10-13 | | 19 個儲存版本；v1–v19 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| VTuber 經紀人投遞作品集 | [vtuber-manager-portfolio.chungkang.chatgpt.site](https://vtuber-manager-portfolio.chungkang.chatgpt.site) | 2026-08-12–2026-08-13 | | 22 個儲存版本；v1–v22 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Riftbound Scenario 2.0 Reviewer Demo | 私人（不列網址） | 2026-08-25–2026-08-25 | | 4 個儲存版本；v1–v4 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Riftbound Scenario Organizer | [riftbound-scenario-organizer.chungkang.chatgpt.site](https://riftbound-scenario-organizer.chungkang.chatgpt.site) | 2026-08-25–2026-10-12 | | 4 個儲存版本；v1–v4 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Iteration Lab | 私人（不列網址） | 2026-09-01–2026-10-08 | | 26 個儲存版本；v1–v26 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Card Game Journey｜卡牌遊戲歷程 | 私人（不列網址） | 2026-09-04–2026-09-04 | | 7 個儲存版本；v1–v7 | active；僅本人；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Inside Decision OS Demo | [inside-decision-os-demo.chungkang.chatgpt.site](https://inside-decision-os-demo.chungkang.chatgpt.site) | 2026-09-18–2026-09-18 | | 5 個儲存版本；v1–v5 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+| Next Stop Live（品牌頁） | [next-stop-live.chungkang.chatgpt.site](https://next-stop-live.chungkang.chatgpt.site) | 2026-09-25–2026-10-27 | | 10 個儲存版本；v1–v10 | active；公開；有部署網址，開發是否停止待確認 | 確定（metadata／版本清單）；開發起訖待確認 |
+
+**對帳提醒：** Thought Flow / Transcript Lab（v9）和 Thought Flow Profile 07（v19）是兩個不同的 Site，不能合成一筆。Inside Decision OS 的 source v147 是歷史版本線索，目前完整清單還有 v148；Shadowverse Prep Lab 的清單確認含 v83。跨平台產品是否相同及承接方向，仍需來源比對，先不合併計數。
 
 ---
 
@@ -101,3 +114,12 @@
 | 4 | Competitive Decision Lab 的時間：目前從網站內容推估在 6 月 | GPT |
 | 5 | 1–2 月真的沒有開發，還是在其他平台？ | 使用者 |
 | 6 | Personal Studio 的定位：上層 README 寫「Control Room 的實驗分支」，但 11/5 討論時也提到要當公開寫作站的基礎 | 使用者 |
+
+### GPT 回覆待確認 1–4（2026-11-05）
+
+1. **Inside Decision OS 起點：部分確認。** Sites 專案建立於 **2026-07-15 23:14:47（Asia/Taipei）**，目前可確認的 Site 起點早於 9/29。完整儲存清單為 v1–v148，確實含 v147；但清單沒有逐版建立時間戳，**v147 的確切日期留空**，也不能把專案建立日當作 v147 日期。「9/29 已有 V2」是待核對的產品語意版本線索，不能與 Site 序號混用。專案最近 metadata 更新為 10/14；這不能證明 v147 當日產生，也不能代表整個產品真正的研究起點。
+2. **Shadowverse Prep Lab 先後：日期可確認，產品關係未確認。** GPT Site 建立於 **2026-07-19**，早於 B 表列出的 Base44 SVWB Prep Lab **8/5–8/7**；此先後比較以 B 表資料為前提，沒有重算或修改 B 表。GPT Site 完整儲存清單為 v1–v83。同屬 Shadowverse 備賽工具可作為關聯線索；是否同一產品的兩版、是否搬移原始碼，以及延續方向，仍須雙方原始資料或使用者確認，**目前不確定**。
+3. **Thought Flow 的關係：分站已確認，跨平台承接僅推估。** GPT 的 Thought Flow / Transcript Lab 建立於 **2026-07-16**（v1–v9）；Thought Flow Profile 07 是另一站，建立於 **2026-07-30**（v1–v19）。就 A、B 表的日期而言，兩站都晚於 Base44 ThoughtFlow／ThoughtMirror（3–4 月）和 GitHub Thought Flow v2（4/25）。名稱與既有 archive 的逐字稿／思考整理研究提供同一研究脈絡的線索（**推估**），尚無足夠證據認定直接移植、改名或版本繼承，不合併產品或數字。
+4. **Competitive Decision Lab 日期：Site 起點可確認。** 專案建立於 **2026-07-16 02:38:08（Asia/Taipei；UTC 為 7/15）**，最近 metadata 更新為 **2026-10-20**，完整儲存清單為 v1–v7。「6 月」目前只能保留為網站內容指涉的研究／素材時間推估，不能作為這個 GPT Site 的建立日期。更早的原型、研究起點與實際活躍天數仍未知。
+
+以上回答只補 C 表及對帳意見；A、B、D 表與全年總覽未改動。未能取得的歷史對話、逐版日期與跨平台關係保留待查。
