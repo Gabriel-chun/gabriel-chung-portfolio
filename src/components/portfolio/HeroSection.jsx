@@ -6,7 +6,7 @@ export default function HeroSection({ heroImage }) {
   const { lang } = useLanguage();
   const t = translations[lang].hero;
   return (
-    <section id="portfolio" className="pt-28 pb-20 md:pt-36 md:pb-28 px-6">
+    <section id="portfolio" className="pt-36 pb-20 md:pt-44 md:pb-28 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">

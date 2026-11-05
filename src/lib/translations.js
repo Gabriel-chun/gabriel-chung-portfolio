@@ -17,8 +17,13 @@ export const logStatusStyles = {
 
 export const translations = {
   en: {
+    archive: {
+      text: "This is my first portfolio, from June 2026. It is no longer updated.",
+      link: "Current work and writing: Personal Studio",
+      href: "https://personal-studio.gabrielchun336.workers.dev/",
+    },
     nav: {
-      name: "Jason Chung",
+      name: "Gabriel Chung",
       links: [
         { label: "Portfolio", href: "#portfolio" },
         { label: "Method", href: "#method" },
@@ -83,14 +88,13 @@ export const translations = {
       title: "Let's connect",
       description: "Available for AI workflow design, prompt system design, content strategy, research synthesis, competitive card game product thinking, UX writing, and product prototyping roles or collaborations.",
       items: [
-        { label: "Email", text: "your-email@example.com" },
-        { label: "LinkedIn", text: "linkedin.com/in/your-profile" },
-        { label: "GitHub / Demo", text: "github.com/your-profile" },
-        { label: "Portfolio", text: "This page" },
+        { label: "Email", text: "gabrielchun336@gmail.com", href: "mailto:gabrielchun336@gmail.com" },
+        { label: "GitHub", text: "github.com/Gabriel-chun", href: "https://github.com/Gabriel-chun" },
+        { label: "Current site", text: "Personal Studio", href: "https://personal-studio.gabrielchun336.workers.dev/" },
       ],
     },
     footer: {
-      copyright: "Jason / Gabriel Chung",
+      copyright: "Gabriel Chung",
       tagline: "AI Workflow Designer · Reasoning Systems · Product Prototyping",
     },
     suite: {
@@ -194,8 +198,13 @@ export const translations = {
     },
   },
   zh: {
+    archive: {
+      text: "這是 2026 年 6 月的第一版作品集，已停止更新。",
+      link: "最新的作品與寫作在 Personal Studio",
+      href: "https://personal-studio.gabrielchun336.workers.dev/",
+    },
     nav: {
-      name: "Jason Chung",
+      name: "Gabriel Chung",
       links: [
         { label: "作品集", href: "#portfolio" },
         { label: "方法", href: "#method" },
@@ -260,14 +269,13 @@ export const translations = {
       title: "保持聯繫",
       description: "歡迎洽詢 AI 工作流設計、提示系統設計、內容策略、研究綜合、競技卡牌遊戲產品思考、UX 寫作與產品原型相關的角色或合作。",
       items: [
-        { label: "電子郵件", text: "your-email@example.com" },
-        { label: "LinkedIn", text: "linkedin.com/in/your-profile" },
-        { label: "GitHub / Demo", text: "github.com/your-profile" },
-        { label: "作品集", text: "本頁" },
+        { label: "電子郵件", text: "gabrielchun336@gmail.com", href: "mailto:gabrielchun336@gmail.com" },
+        { label: "GitHub", text: "github.com/Gabriel-chun", href: "https://github.com/Gabriel-chun" },
+        { label: "目前的網站", text: "Personal Studio", href: "https://personal-studio.gabrielchun336.workers.dev/" },
       ],
     },
     footer: {
-      copyright: "Jason / Gabriel Chung",
+      copyright: "Gabriel Chung",
       tagline: "AI 工作流設計 · 推理系統 · 產品原型",
     },
     suite: {

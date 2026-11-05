@@ -1,9 +1,9 @@
 import React from "react";
-import { Mail, Linkedin, Github, ExternalLink } from "lucide-react";
+import { Mail, Github, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { translations } from "@/lib/translations";
 
-const icons = [Mail, Linkedin, Github, ExternalLink];
+const icons = [Mail, Github, ExternalLink];
 
 export default function ContactSection() {
   const { lang } = useLanguage();
@@ -26,16 +26,18 @@ export default function ContactSection() {
               {t.items.map((item, i) => {
                 const Icon = icons[i];
                 return (
-                  <div
+                  <a
                     key={item.label}
-                    className="flex items-start gap-3 p-4 border border-[#E0DDD8] rounded bg-white"
+                    href={item.href}
+                    {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    className="flex items-start gap-3 p-4 border border-[#E0DDD8] rounded bg-white hover:border-[#3E5C76]/40 transition-colors"
                   >
                     <Icon size={18} className="text-[#3E5C76] mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-[#1A1A1A] font-body">{item.label}</p>
                       <p className="text-xs text-[#757575] font-mono mt-0.5">{item.text}</p>
                     </div>
-                  </div>
+                  </a>
                 );
               })}
             </div>

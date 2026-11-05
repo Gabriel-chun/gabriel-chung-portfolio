@@ -6,6 +6,7 @@ import { translations } from "@/lib/translations";
 export default function NavBar() {
   const { lang, setLang } = useLanguage();
   const t = translations[lang].nav;
+  const a = translations[lang].archive;
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -23,6 +24,14 @@ export default function NavBar() {
         scrolled ? "bg-[#F9F9F7]/95 backdrop-blur-sm border-b border-[#E0DDD8]" : "bg-transparent"
       }`}
     >
+      <div className="bg-[#1A1A1A] text-[#F9F9F7] text-xs md:text-sm font-body">
+        <div className="max-w-6xl mx-auto px-6 py-2 flex flex-wrap items-center gap-x-2 gap-y-0.5">
+          <span>{a.text}</span>
+          <a href={a.href} className="underline underline-offset-2 hover:text-white font-medium">
+            {a.link} →
+          </a>
+        </div>
+      </div>
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-14">
         <a href="#portfolio" className="font-heading text-lg text-[#1A1A1A] tracking-tight">
           {t.name}
