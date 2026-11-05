@@ -26,18 +26,18 @@
 
 讀法：`Gabriel-chun` 名下今年有提交的 10 個 repo，包含所有分支，同一個提交只算一次。分支上的提交與合併後的主線提交各算一次，有 PR 的 repo 數字會偏高一點。
 
-| 產品 | repo | 期間 | 活躍天數 | 提交數 | 已知版本 | 線上網址 |
+| 產品 | repo | 期間 | 活躍天數 | 提交數 | 已知版本 | 部署方式 |
 |---|---|---|---|---|---|---|
-| Thought Flow v2 | card-game- | 3/1–4/25 | 2 | 71 | v2 | card-game-blue-rho.vercel.app |
-| 作品集 V1 | gabriel-chung-portfolio | 6/23 | 1 | 3（不含 11/5 起的整理） | V1 | gabriel-chung-portfolio.vercel.app |
-| Next Stop Live | threads-cli-nextstop | 9/25–11/4 | 19 | 777（另有 584 次自動採集） | Signal Deck V0.4、Signal Review V0.5、Trend Tracking V0.2 | next-stop-live.vercel.app |
-| Semantic Weave | semantic-weave | 10/9–10/10 | 2 | 52 | V0.1 → V0.7，退回 V0.6 | semantic-weave-studio.gabrielchun336.workers.dev |
-| Knock Knock | knock-knock-career-research | 10/11–10/21 | 2 | 34 | V0.1 | — |
-| Control Room | control-room | 10/12–11/5 | 13 | 278 | — | 私人 |
-| Inside Decision OS | inside-decision-os | 10/13–10/16 | 4 | 479 | 到 V5.2 後停止 | inside-decision-os.gabrielchun336.workers.dev |
-| Research Thread | research-thread | 10/21–11/5 | 2 | 33 | v0.1 → v0.2 | research-thread.gabrielchun336.workers.dev |
-| Observer Engine | Observer-Engine | 10/30 | 1 | 66 | V0.1 → V0.3 | observer-engine.gabrielchun336.workers.dev |
-| Personal Studio | personal-site | 11/4 | 1 | 4 | v2 | personal-studio.gabrielchun336.workers.dev |
+| Thought Flow v2 | card-game- | 3/1–4/25 | 2 | 71 | v2 | Vercel |
+| 作品集 V1 | gabriel-chung-portfolio | 6/23 | 1 | 3（不含 11/5 起的整理） | V1 | Vercel（GitHub 自動部署） |
+| Next Stop Live | threads-cli-nextstop | 9/25–11/4 | 19 | 777（另有 584 次自動採集） | Signal Deck V0.4、Signal Review V0.5、Trend Tracking V0.2 | Vercel ＋ Cloudflare Worker（GitHub Actions） |
+| Semantic Weave | semantic-weave | 10/9–10/10 | 2 | 52 | V0.1 → V0.7，退回 V0.6 | Cloudflare Worker（手動部署） |
+| Knock Knock | knock-knock-career-research | 10/11–10/21 | 2 | 34 | V0.1 | Cloudflare Pages（GitHub 自動部署） |
+| Control Room | control-room | 10/12–11/5 | 13 | 278 | — | Cloudflare Worker（GitHub 自動部署，有登入保護） |
+| Inside Decision OS | inside-decision-os | 10/13–10/16 | 4 | 479 | 到 V5.2 後停止 | Cloudflare Worker（GitHub 自動部署，有登入保護） |
+| Research Thread | research-thread | 10/21–11/5 | 2 | 33 | v0.1 → v0.2 | Cloudflare Worker（手動部署腳本） |
+| Observer Engine | Observer-Engine | 10/30 | 1 | 66 | V0.1 → V0.3 | Cloudflare Worker（GitHub 自動部署） |
+| Personal Studio | personal-site | 11/4 | 1 | 4 | v2 | Cloudflare Worker（GitHub 自動部署） |
 
 **合計**：1,797 次提交（另有 584 次自動採集），10 月佔 1,525 次。
 
@@ -94,15 +94,31 @@
 
 ---
 
-## D. 沒有 repo 的部署（Claude 負責，待補）
+## D. 沒有 repo 的 Cloudflare Workers（Claude 負責）
 
-| 產品 | 網址 | 目前知道的 |
-|---|---|---|
-| Current State Mapping | current-state-mapping.gabrielchun336.workers.dev | 線上 V0.60；找不到 repo |
-| Trace Workroom | trace-workroom.pages.dev | 預計由 Personal Studio 取代 |
-| Work Information Support | work-information-support.gabrielchun336.workers.dev | Demo |
+讀法：Cloudflare 帳號裡共 15 個 Workers，其中 8 個找不到對應的 GitHub repo，是從本機直接部署的。期間是 Worker 的建立日到最近一次部署（臺北日期），不等於實際開發起訖。依公開範圍，這裡不列網址。
 
-下一步：從 Cloudflare 的部署紀錄補上這幾個的期間與部署次數。
+| Worker | 屬於哪個產品 | 期間 | 目前狀態 |
+|---|---|---|---|
+| current-state-mapping | Current State Mapping | 10/6–10/12 | 公開可開啟；線上 V0.60 |
+| content-research-demo | Content Research／Work Method（Personal Studio 案例） | 10/6–10/13 | 公開可開啟 |
+| work-support-demo | Work Method Demo | 10/6–10/7 | 公開可開啟 |
+| work-information-support | Work Information Support（Personal Studio 案例） | 10/8–10/13 | 公開可開啟 |
+| inside-decision-os-v4-preview | Inside Decision OS 4.0 Constellation 預覽 | 10/14 | 公開可開啟 |
+| inside-decision-os-v52-preview | Inside Decision OS V5.2 預覽 | 10/16–10/17 | 有登入保護 |
+| nextstop-collector-watchdog | Next Stop 採集監看 | 10/3 | 背景程式，沒有頁面 |
+| nextstop-public-preview | Next Stop Live 公開頁預覽 | 10/27 | 公開可開啟 |
+
+**已移除**：Trace Workroom（Cloudflare Pages）已經無法連線，確認拿掉。
+
+**和 GitHub 的串接**（15 個 Workers 中有 repo 的 7 個）：
+
+| 串接方式 | Workers |
+|---|---|
+| GitHub push 後由 Cloudflare 自動部署 | personal-studio、control-room、inside-decision-os、observer-engine |
+| GitHub Actions 部署 | threads-cli-nextstop |
+| 有 repo，但從本機手動部署 | research-thread、semantic-weave-studio |
+| Cloudflare Pages（不是 Worker） | knock-knock-career-research |
 
 ---
 
