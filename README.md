@@ -13,8 +13,8 @@ This repository preserves the first version of my product-design portfolio and n
 - **舊 Vercel 部署：** 不再視為正式的主要作品集。歷史網址為 `gabriel-chung-portfolio.vercel.app`。  
   **Legacy Vercel deployment:** no longer treated as the canonical portfolio. Historical URL: `gabriel-chung-portfolio.vercel.app`.
 
-- **Personal Site / Personal Studio：** 現在視為 Control Room 發展過程中的實驗分支，而不是新版 Portfolio 的正式替代品。  
-  **Personal Site / Personal Studio:** now treated as a Control Room-related experiment / branch, not the canonical replacement portfolio.
+- **Personal Studio（目前的公開網站）：** 2026-11-05 確認為對外的公開網站，負責寫作、案例與合作。它最初是在 Control Room 發展過程中，為了把私人工作系統和對外展示分開而產生的；原始碼在 `Gabriel-chun/personal-site`。  
+  **Personal Studio (current public site):** confirmed on 2026-11-05 as the public-facing site for writing, cases and collaboration. It originally emerged from Control Room work to separate the private workspace from public presentation; source lives in `Gabriel-chun/personal-site`.
 
 - **下一版作品集：** 將在這個 repository 內重新整理，並逐步從目前的專案、研究與歷史原型中抽取正式案例。  
   **Next version:** will be rebuilt in this repository by reorganizing current projects, research, and historical prototypes into selected public case studies.
