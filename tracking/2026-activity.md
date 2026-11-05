@@ -127,8 +127,8 @@
 | # | 問題 | 誰來對 |
 |---|---|---|
 | 1 | ~~Inside Decision OS 真正的起點~~ → GPT Site 7/15 建立（已回覆，見下方） | GPT |
-| 2 | Shadowverse Prep Lab：GPT Site（v83）與 Base44 的 SVWB Prep Lab（8/5–8/7）哪個先？是同一個產品的兩版嗎？ | GPT ＋ Claude |
-| 3 | Thought Flow Lab（GPT Site）與 Base44 的 ThoughtFlow／ThoughtMirror（3–4 月）、GitHub 的 Thought Flow v2（4/25）是什麼關係？ | GPT ＋ Claude |
+| 2 | ~~Shadowverse：GPT Site 與 Base44 的關係~~ → 同一個產品，分工不同（已回覆，見下方） | 使用者 |
+| 3 | ~~Thought Flow 在各平台的關係~~ → 同一個名字，四個不同角色（已回覆，見下方） | 使用者 |
 | 4 | ~~Competitive Decision Lab 的時間~~ → GPT Site 7/16 建立；6 月是研究素材的時間（已回覆） | GPT |
 | 5 | ~~1–2 月真的沒有開發嗎？~~ → 確認沒有，這兩個月在探索方向（已回覆） | 使用者 |
 | 6 | ~~Personal Studio 的定位~~ → 目前的公開網站（已回覆，主 README 已更新） | 使用者 |
@@ -141,3 +141,30 @@
 4. **Competitive Decision Lab 日期：Site 起點可確認。** 專案建立於 **2026-07-16 02:38:08（Asia/Taipei；UTC 為 7/15）**，最近 metadata 更新為 **2026-10-20**，完整儲存清單為 v1–v7。「6 月」目前只能保留為網站內容指涉的研究／素材時間推估，不能作為這個 GPT Site 的建立日期。更早的原型、研究起點與實際活躍天數仍未知。
 
 以上回答只補 C 表及對帳意見；A、B、D 表與全年總覽未改動。未能取得的歷史對話、逐版日期與跨平台關係保留待查。
+
+### 使用者回覆第 2、3、5、6 題（2026-11-05）
+
+**第 2 題：Shadowverse 是同一個產品，兩個平台負責不同的事。**
+
+| 平台 | 名稱 | 角色 |
+|---|---|---|
+| GPT Sites（7/19 起，83 個版本） | Shadowverse Prep Lab | **全方位的紀錄工作台**：環境研究、牌組、對戰、練習紀錄，並匯出 JSON |
+| Base44（8/5–8/7） | SVWB Prep Lab | **勝率圖表展示台**：讀取 GPT Site 匯出的 JSON，顯示勝率與對戰數據 |
+
+兩者的數字分開記錄，不合併；在產品層級視為同一個產品。
+
+**第 3 題：Thought Flow 是同一個名字，在四個地方扮演不同角色。**
+
+| 時間 | 平台 | 角色 |
+|---|---|---|
+| 3–4 月 | Base44（ThoughtFlow、ThoughtMirror 等） | **思路整理**：今天有什麼點子、要怎麼輸出 |
+| 4/25 | GitHub（`card-game-` repo，Thought Flow v2） | **展示站**：展示做了什麼 |
+| 7/30 起 | GPT Sites：Thought Flow Profile 07 | **展示** |
+| 7/16–7/17 | GPT Sites：Thought Flow / Transcript Lab | **素材庫**：放 Base44 時期做的語料整理、逐字稿相關檔案 |
+
+所以 Thought Flow 不是同一個工具一路升級，而是「思路整理」的做法先在 Base44 成形，之後分別做成展示站與素材庫。
+
+**第 5 題**：1–2 月沒有開發，這段時間在探索方向。
+**第 6 題**：Personal Studio 是目前的公開網站。
+
+待確認清單到此全部回覆完畢。
