@@ -12,11 +12,13 @@
 | 4 月 | Base44（＋ GitHub 一天） | 思考結構化、敲門、短週期決策；4/25 Thought Flow v2 第一次放上 GitHub |
 | 5 月 | Base44 | MTG（DeckCanvas、Sideboard Flow Studio）、SlideMap、Inside Ideation Loop |
 | 6 月 | Base44 | 爐石賽事工具；6/23 第一版作品集與 Showcase Edition |
-| 7 月 | Base44 | 爐石工具收尾（7/7 Early List Validator） |
-| 8 月 | Base44 | SVWB Prep Lab |
-| 9 月 | GitHub、GPT Sites | 9/25 Next Stop Live；Inside Decision OS 在 GPT Sites 已有 V2（待 GPT 補） |
-| 10 月 | GitHub、Cloudflare | 全年高峰：Semantic Weave、Control Room、Inside Decision OS、Research Thread、Observer Engine |
+| 7 月 | **GPT Sites**（＋ Base44） | 7/15 Inside Decision OS 建站（之後累積 148 個版本）；7/16 Competitive Decision Lab、Thought Flow / Transcript Lab；7/19 Shadowverse Prep Lab；7/22 Ideation Landing Room；7/24 Inside Workspace；7/30 Thought Flow Profile 07。Base44 只剩 7/7 Early List Validator |
+| 8 月 | **GPT Sites**（＋ Base44） | 8/12 VTuber 經紀人投遞作品集；8/25 Riftbound 兩個站。Base44 的 SVWB Prep Lab（8/5–8/7） |
+| 9 月 | GPT Sites → GitHub | 9/1 Iteration Lab；9/4 Card Game Journey；9/18 Inside Decision OS Demo；9/25 Next Stop Live 同時在 GitHub 與 GPT Sites 開始 |
+| 10 月 | GitHub、Cloudflare | 全年高峰：Semantic Weave、Control Room、Inside Decision OS（repo）、Research Thread、Observer Engine |
 | 11 月 | GitHub、Base44 | Personal Studio、Research Thread v0.2、觀察者協議 |
+
+**三個時期**：3–6 月以 Base44 快速試做 → 7–9 月轉到 GPT Sites，少數產品長時間迭代（Inside Decision OS 148 版、Shadowverse Prep Lab 83 版）→ 9 月底起轉到 GitHub 與 Cloudflare。三個平台的數字單位不同（指令、儲存版本、提交），只能比較時間，不能比較大小。
 
 ---
 
@@ -108,10 +110,10 @@
 
 | # | 問題 | 誰來對 |
 |---|---|---|
-| 1 | Inside Decision OS 真正的起點：9/29 已有 V2，GPT Site 的 v147 是什麼時候開始的？ | GPT |
+| 1 | ~~Inside Decision OS 真正的起點~~ → GPT Site 7/15 建立（已回覆，見下方） | GPT |
 | 2 | Shadowverse Prep Lab：GPT Site（v83）與 Base44 的 SVWB Prep Lab（8/5–8/7）哪個先？是同一個產品的兩版嗎？ | GPT ＋ Claude |
 | 3 | Thought Flow Lab（GPT Site）與 Base44 的 ThoughtFlow／ThoughtMirror（3–4 月）、GitHub 的 Thought Flow v2（4/25）是什麼關係？ | GPT ＋ Claude |
-| 4 | Competitive Decision Lab 的時間：目前從網站內容推估在 6 月 | GPT |
+| 4 | ~~Competitive Decision Lab 的時間~~ → GPT Site 7/16 建立；6 月是研究素材的時間（已回覆） | GPT |
 | 5 | 1–2 月真的沒有開發，還是在其他平台？ | 使用者 |
 | 6 | Personal Studio 的定位：上層 README 寫「Control Room 的實驗分支」，但 11/5 討論時也提到要當公開寫作站的基礎 | 使用者 |
 
