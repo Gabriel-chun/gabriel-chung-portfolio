@@ -1,25 +1,60 @@
-# Gabriel Chung — 第一版作品集（2026 年 6 月，已凍結）
+# Gabriel Chung — Portfolio Archive / Rebuild in Progress
 
-這是我的第一版作品集，2026 年 6 月 23 日用 Base44 產生，部署在 Vercel：
-<https://gabriel-chung-portfolio.vercel.app>
+This repository contains the frozen first version of my product-design portfolio and the research archive now being used to rebuild it.
 
-**這個網站已經停止更新。** 最新的作品、案例和寫作都在 **Personal Studio**：
-<https://personal-studio.gabrielchun336.workers.dev/>
+## Current status
 
-## 為什麼保留
+- **Portfolio V1 (June 2026): frozen.** The Base44-generated site and its original code are preserved as historical evidence.
+- **Legacy Vercel deployment:** no longer treated as the canonical portfolio. Historical URL: `gabriel-chung-portfolio.vercel.app`.
+- **Personal Site / Personal Studio:** treated as a Control Room-related experiment / branch, not the canonical replacement portfolio.
+- **Next version:** will be rebuilt in this repository after the current project and research archive is reorganized.
 
-它記錄了我當時怎麼描述自己的工作：「為混亂的人類思考設計系統」，以及三個作品——Inside Ideation Loop、Card Game Reasoning Suite、Research-to-Product Workflow。之後的工具（Control Room、Research Thread、Semantic Weave、Observer Engine……）都是從這裡的問題一路延伸出去的，所以把它留著當作起點的證據。
+The V1 interface should remain distinguishable from the later reconstruction work.
 
-## 凍結時做的修改（2026-11）
+## Why keep V1
 
-- 每一頁頂端加上橫幅，說明這是舊版，並連到 Personal Studio
-- 名字統一為 Gabriel Chung；聯絡方式從範本文字換成實際的 Email、GitHub 和新網站
-- 加上 `noindex`，讓搜尋引擎優先收錄新網站
+The first portfolio captured an early framing of the work: designing systems for messy human thinking.
 
-除此之外，內容、版面與 Base44 產生的程式碼都維持 2026 年 6 月的樣子，不再修改。
+Its early cases already touched:
 
-## 技術備註
+- natural-language / ideation workflows;
+- card-game reasoning and review;
+- research-to-product workflows.
 
-- React + Vite + Tailwind，由 Base44 產生；`src/lib/translations.js` 放中英文內容
-- Base44 留下的登入流程、SDK 與外掛沒有清掉，因為這個 repo 只做保存，不再開發
-- 本機預覽：`npm install && npm run dev`
+Later projects — including Control Room, Global Project Overview, Research Thread, Semantic Weave and domain-specific research tools — grew from problems already visible in that first version.
+
+## Historical research archive
+
+```text
+archive/
+└── gpt-site-research/
+    ├── README.md
+    ├── research-sequence-v1.md
+    └── portfolio-reference-notes.md
+```
+
+The archive documents a GPT-assisted prototyping period that included:
+
+- Capture / Craft / Publish (IdeaFlow)
+- Thought Flow / Transcript research
+- Inside Decision OS
+- Competitive Decision / Shadowverse research
+- the later transition toward Research Thread, Semantic Weave, GPO and Control Room
+
+The archive is **not** a claim that every historical prototype is still an active product. It is source material for deciding what belongs in the rebuilt portfolio.
+
+## Rebuild principle
+
+The new portfolio should not be a gallery of every website I made.
+
+It should show:
+
+1. what problem I was investigating;
+2. what prototype made the problem testable;
+3. what evidence or friction appeared;
+4. what changed in the next iteration;
+5. which ideas survived into later systems.
+
+## Legacy technical note
+
+Portfolio V1 remains React + Vite + Tailwind and was originally generated through Base44. Base44-era auth / SDK code can remain as part of the frozen implementation until the rebuild replaces the old application structure.
