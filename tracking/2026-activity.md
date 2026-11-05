@@ -33,7 +33,7 @@
 | Next Stop Live | threads-cli-nextstop | 9/25–11/4 | 19 | 777（另有 584 次自動採集） | Signal Deck V0.4、Signal Review V0.5、Trend Tracking V0.2 | Vercel ＋ Cloudflare Worker（GitHub Actions） |
 | Semantic Weave | semantic-weave | 10/9–10/10 | 2 | 52 | V0.1 → V0.7，退回 V0.6 | Cloudflare Worker（手動部署） |
 | Knock Knock | knock-knock-career-research | 10/11–10/21 | 2 | 34 | V0.1 | Cloudflare Pages（GitHub 自動部署） |
-| Control Room | control-room | 10/12–11/5 | 13 | 278 | — | Cloudflare Worker（GitHub 自動部署） |
+| Control Room | control-room | 10/12–11/5 | 13 | 278 | — | Cloudflare Worker（GitHub 自動部署，有登入保護） |
 | Inside Decision OS | inside-decision-os | 10/13–10/16 | 4 | 479 | 到 V5.2 後停止 | Cloudflare Worker（GitHub 自動部署，有登入保護） |
 | Research Thread | research-thread | 10/21–11/5 | 2 | 33 | v0.1 → v0.2 | Cloudflare Worker（手動部署腳本） |
 | Observer Engine | Observer-Engine | 10/30 | 1 | 66 | V0.1 → V0.3 | Cloudflare Worker（GitHub 自動部署） |
