@@ -7,7 +7,7 @@
 
 | 月份 | 主要在哪裡 | 發生什麼 |
 |---|---|---|
-| 1–2 月 | — | 沒有找到開發紀錄 |
+| 1–2 月 | — | 沒有開發（使用者確認：在探索方向） |
 | 3 月 | Base44 | 第一個 app（3/1 Sideboard Strategist）；「原話 → 外部 LLM → 貼回結構」在 3/5–3/19 成形 |
 | 4 月 | Base44（＋ GitHub 一天） | 思考結構化、敲門、短週期決策；4/25 Thought Flow v2 第一次放上 GitHub |
 | 5 月 | Base44 | MTG（DeckCanvas、Sideboard Flow Studio）、SlideMap、Inside Ideation Loop |
@@ -130,8 +130,8 @@
 | 2 | Shadowverse Prep Lab：GPT Site（v83）與 Base44 的 SVWB Prep Lab（8/5–8/7）哪個先？是同一個產品的兩版嗎？ | GPT ＋ Claude |
 | 3 | Thought Flow Lab（GPT Site）與 Base44 的 ThoughtFlow／ThoughtMirror（3–4 月）、GitHub 的 Thought Flow v2（4/25）是什麼關係？ | GPT ＋ Claude |
 | 4 | ~~Competitive Decision Lab 的時間~~ → GPT Site 7/16 建立；6 月是研究素材的時間（已回覆） | GPT |
-| 5 | 1–2 月真的沒有開發，還是在其他平台？ | 使用者 |
-| 6 | Personal Studio 的定位：上層 README 寫「Control Room 的實驗分支」，但 11/5 討論時也提到要當公開寫作站的基礎 | 使用者 |
+| 5 | ~~1–2 月真的沒有開發嗎？~~ → 確認沒有，這兩個月在探索方向（已回覆） | 使用者 |
+| 6 | ~~Personal Studio 的定位~~ → 目前的公開網站（已回覆，主 README 已更新） | 使用者 |
 
 ### GPT 回覆待確認 1–4（2026-11-05）
 
